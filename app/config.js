@@ -1,15 +1,18 @@
 var Bookshelf = require('bookshelf');
 var path = require('path');
+var app = require('../server.js');
 var db;
 
-if ( process.env.NODE_ENV='production') {
-  db = Bookshelf.initialize({
-    client: 'pg',
-    connection: process.env.DATABASE_URL,
-    searchPath: 'knex,public'
-  });
-} else {
-  // dev
+console.log(app);
+//app.set('port', process.env.PORT || config.port);
+
+
+  // db = Bookshelf.initialize({
+  //   client: 'pg',
+  //   connection: process.env.DATABASE_URL,
+  //   searchPath: 'knex,public'
+  // });
+
   db = Bookshelf.initialize({
     client: 'sqlite3',
     connection: {
@@ -22,7 +25,6 @@ if ( process.env.NODE_ENV='production') {
     }
   });
 
-}
 
 
 
