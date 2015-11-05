@@ -1,9 +1,9 @@
 var Bookshelf = require('bookshelf');
 var path = require('path');
-var app = require('../server.js');
+// var app = require('../server.js');
 var db;
 
-console.log(app);
+// console.log(app);
 //app.set('port', process.env.PORT || config.port);
 
 
