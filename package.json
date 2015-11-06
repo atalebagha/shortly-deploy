@@ -7,7 +7,8 @@
   "license": "Proprietary",
   "private": true,
   "scripts": {
-    "start": "grunt deploy && grunt server-dev"
+    "start": "nodemon index.js",
+    "postinstall":"grunt deploy && grunt server-dev"
   },
   "engines": {
     "node": "0.12.7"
