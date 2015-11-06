@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon index.js",
-    "postinstall":"grunt deploy && grunt server-dev"
+    "postinstall":"grunt deploy"
   },
   "engines": {
     "node": "0.12.7"
