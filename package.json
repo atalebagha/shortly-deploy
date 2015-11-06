@@ -7,7 +7,7 @@
   "license": "Proprietary",
   "private": true,
   "scripts": {
-    "start": "grunt build && grunt server-dev"
+    "start": "grunt deploy && grunt server-dev"
   },
   "engines": {
     "node": "0.12.7"

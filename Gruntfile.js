@@ -154,7 +154,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('deploy', [
-      'concat', 'uglify'
+      'concat', 'uglify','cssmin','clean:build'
     // add your deploy tasks here
   ]);
 
