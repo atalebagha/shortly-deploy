@@ -22,6 +22,7 @@
     "express-partials": "~0.2.0",
     "forever": "^0.10.11",
     "grunt": "^0.4.5",
+    "grunt-cli":"latest"
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.3.0",
     "grunt-contrib-cssmin": "^0.9.0",
